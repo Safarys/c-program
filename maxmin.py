@@ -1,0 +1,6 @@
+num=input("Enter the Number ")
+l=list(num)
+x=max(l)
+print("Maximum number is",x)
+y=min(l)
+print("Minimum Number is",y)
