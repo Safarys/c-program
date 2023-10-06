@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Student Registration</title>
+</head>
+<style type="text/css">
+	.table_style
+	{
+		width: 98%;
+		height: 98%
+		
+	}
+	.table_s
+	{
+		width: 80%;
+		height: 500px;
+	}
+</style>
+<body style="background-image:url(.jpg)">
+	<script type="text/javascript">
+		function repeat()
+		{
+			var phno=document.getElementById("T1").value;
+			document.write("Phone Number : ",+phno);
+			var nm=document.getElementById("T2").value;
+			document.write("Student Name :",+nm);
+		}
+	</script>
+	<section name="header">
+		<h1 align="Center">Mar Athanasius College of Engineering</h1>
+		<h2 align="Center">Kothamangalam,Kerala - 686 666</h2>
+		<h3 align="Center">Ph:0485 28223632,www.mace.ac.in</h3>
+		
+	</section>
+	<section>
+		<form>
+		<table border="2px bold" align="center" class="table_s">
+			
+				<tr>
+					<td>
+						<label>Name of the student</label>
+					</td>
+					<td>
+						<input type="text" name="name" class="table_style" id="T2">
+					</td>
+				</tr>
+				<tr>
+					<td>
+						<label>Father's name:</label>
+					</td>
+					<td>
+						<input type="text" name="fname" class="table_style">
+					</td>
+				</tr>
+				<tr>
+					<td>
+						<label>Designation:</label>
+					</td>
+					<td>
+						<input type="text" name="fdesig" class="table_style">
+					</td>
+				</tr>
+				<tr>
+					<td>
+						<label>Mother's name:</label>
+					</td>
+					<td>
+						<input type="text" name="mname" class="table_style">
+					</td>
+				</tr>
+				<tr>
+					<td>
+						<label>Designation:</label>
+					</td>
+					<td>
+						<input type="text" name="mdesig" class="table_style">
+					</td>
+				</tr>
+				<tr>
+					<td>
+						<label>
+							Student Phone Number:
+						</label>
+					</td>
+					<td>
+						<input type="Number" name="phno" class="table_style" id="T1">
+					</td>
+				</tr>
+				<tr>
+					<td>
+						<label>Guardian Phone number:</label>
+					</td>
+					<td>
+						<input type="Number" name="gphno" class="table_style">
+					</td>
+				</tr>
+
+			
+			<tr>
+					
+					<td colspan=2 >
+						<input type="Submit" name="Submit" onclick="repeat()" align="center">
+					</td>
+				</tr>
+				
+		</table>
+		</form>
+	</section>
+
+</body>
+</html>
