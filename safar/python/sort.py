@@ -1,0 +1,5 @@
+num=list(input("Enter the list"))
+print(num)
+l=sorted(num)
+print(l)
+print("The second smallest Number  is",l[1])
