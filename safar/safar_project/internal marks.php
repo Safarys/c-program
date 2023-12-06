@@ -27,6 +27,7 @@
                       {
                 ?>
              <tr>
+                
                 <th><input type="text" name='sub[]' placeholder="Subject"></th>
                 <th><input type="number" name='mark[]' placeholder="mark"></th>
                  </tr>
