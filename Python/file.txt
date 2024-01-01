@@ -2,3 +2,4 @@
 188xxxxxx987
 12346ghdfhj900
 1290xxxx4527
+extract all petterns of the format "1999xxxx6167,'889xxxxxxxxx71"etc frm a file
