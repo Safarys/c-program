@@ -1,5 +1,0 @@
-a=input("Enter the String ")
-b=input("Enter the Character ")
-print("String is ",a)
-r=a[0:].count(b)
-print("count = ",r)
