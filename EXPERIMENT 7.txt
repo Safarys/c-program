@@ -1,0 +1,42 @@
+These commands are commonly used in a Unix/Linux terminal environment:
+
+
+---EXAMPLES SHOULD BE WRITTEN AFTER EACH COMMANDS---
+
+
+1. **man**: Displays the manual pages for commands, showing usage and options.
+2. **ls**: Lists files and directories in the current directory.
+3. **echo**: Prints arguments to the terminal.
+4. **read**: Reads input from the user. 
+5. **more**: Displays the contents of a file one screen at a time, allowing navigation.
+6. **less**: Like "more", but with more advanced navigation features. 
+7. **cat**: Concatenates and displays the contents of files. 
+8. **cd**: Changes the current directory. 
+9. **mkdir**: Creates a new directory. 
+10. **pwd**: Prints the current working directory. 
+11. **find**: Searches for files in a directory hierarchy.
+12. **mv**: Moves files or directories from one location to another.
+13. **cp**: Copies files or directories. 
+14. **rm**: Removes files or directories. 
+15. **tar**: Archives files into a single file, often compressed. 
+16. **wc**: Counts lines, words, and characters in a file. 
+17. **cut**: Extracts sections from each line of files. 
+18. **paste**: Merges lines of files side by side. 
+19. **head**: Outputs the first part of files.
+20. **tail**: Outputs the last part of files. 
+21. **grep**: Searches for patterns in files.
+22. **expr**: Evaluates expressions. 
+23. **chmod**: Changes permissions of files or directories. 
+24. **chown**: Changes ownership of files or directories. 
+25. **Redirections & Piping**: Techniques for redirecting input and output, and piping output from one command to another. 
+26. **useradd**: Adds a new user to the system. 
+27. **usermod**: Modifies existing user accounts. 
+28. **userdel**: Deletes user accounts. 
+29. **passwd**: Allows users to change their passwords. 
+30. **df**: Displays disk space usage. 
+31. **top**: Displays system resource usage. 
+32. **ps**: Reports a snapshot of the current processes. 
+33. **ssh**: Connects to a remote server securely. 
+34. **scp**: Securely copies files between hosts. 
+35. **ssh-keygen**: Generates SSH keys for authentication. 
+36. **ssh-copy-id**: Copies SSH keys to a remote server for passwordless authentication
